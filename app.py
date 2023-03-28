@@ -7,7 +7,7 @@ def home():
     return render_template('home.html')
 
 @app.route("/poll")
-def poll_page():
+def poll_page():   
     return render_template('poll.html')
 
 
